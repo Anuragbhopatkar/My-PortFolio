@@ -1,0 +1,74 @@
+#Sectionone{
+
+    display: flex;
+
+    height: 100vh;
+  
+    width: 100%;
+   
+   
+    border: 2px solid black ;
+}
+
+
+.S1-1{
+    border: 2px solid black;
+   display: flex;
+height: 100%;
+width: 50%;
+background-color: black;
+
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.S1-2{
+   
+      display: flex;
+      background-color: black;
+border: 2px solid black;
+    height: 100%;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+img {
+    border-radius: 300px 100px 300px 100px;
+        height: 60%;
+        width: 60%;
+    }
+    .S1-1 p{
+
+
+    font-size: 440%;
+    color: white;
+}
+
+
+@media screen and (max-width: 600px )  {
+
+#Sectionone{
+
+height: auto;
+    flex-direction: column;
+  
+}
+
+.S1-1{
+height: 100vh;
+    width: 100%;
+}
+
+.S1-2{
+    height: 100vh;
+    width: 100%; 
+}
+
+
+}
+
+

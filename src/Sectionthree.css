@@ -1,0 +1,34 @@
+#Sectionthree{
+
+display: flex;
+
+width: 100%;
+
+
+height: 100vh;
+background-color: black;
+flex-direction: column;
+
+}
+
+#Sectionthree li{
+ 
+  color:antiquewhite;
+  font-size: 90%;
+margin-left: 47%;
+
+}
+
+#Sectionthree ul{
+  color: antiquewhite;
+
+}
+
+
+#Sectionthree h1 {
+  margin-left: 25%;
+    color: white;
+    font-size: 290%;
+    
+}
+

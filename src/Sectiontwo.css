@@ -1,0 +1,86 @@
+#Sectiontwo{
+
+    display: flex;
+
+    
+    height: 100vh;
+  
+    width: 100%;
+   
+   
+    border: 2px solid black ;
+}
+
+.S2-1{
+    border: 2px solid black;
+    display: inline-flexbox;
+height: 100%;
+width: 50%;
+background-color: black;
+
+
+}
+
+.S2-2{
+   
+    display: inline-flex;
+    background-color: black;
+border: 2px solid black;
+    height: 100%;
+    width: 50%;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    
+   
+    
+}
+
+.S2-2 img{
+    border-radius: 300px 100px 300px 100px;
+        height: 60%;
+        width: 60%;
+        
+    }
+  
+    .S2-1 p {
+
+
+   font-size: 350%;
+    color: white;
+    text-align: center;
+    
+}
+
+#tem{
+
+    font-size: 150%;
+}
+
+
+
+@media screen and (max-width: 600px)  {
+
+#Sectiontwo{
+
+     height: auto;
+
+    flex-direction: column;
+}
+
+.S2-1{
+height: 100vh;
+    width: 100%;
+}
+
+.S2-2{
+
+    
+    height: 100vh;
+    width: 100%; 
+}
+
+
+}
+
+
